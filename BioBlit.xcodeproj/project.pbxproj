@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE00E37E297059A20050CEC2 /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE00E37D297059A20050CEC2 /* Move.swift */; };
+		FE00E380297070F30050CEC2 /* Strategist.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE00E37F297070F30050CEC2 /* Strategist.swift */; };
 		FE5B3785296C7D9B00794223 /* BioBlitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5B3784296C7D9B00794223 /* BioBlitApp.swift */; };
 		FE5B3787296C7D9B00794223 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5B3786296C7D9B00794223 /* ContentView.swift */; };
 		FE5B3789296C7D9D00794223 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE5B3788296C7D9D00794223 /* Assets.xcassets */; };
@@ -14,9 +16,13 @@
 		FE5B3794296C805400794223 /* Bacteria.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5B3793296C805400794223 /* Bacteria.swift */; };
 		FE5B3796296C822E00794223 /* BacteriaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5B3795296C822E00794223 /* BacteriaView.swift */; };
 		FE5B3798296C85E300794223 /* GameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5B3797296C85E300794223 /* GameBoard.swift */; };
+		FE5B379A296DE8FB00794223 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5B3799296DE8FB00794223 /* Player.swift */; };
+		FE5B37A0296E133E00794223 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5B379F296E133E00794223 /* Board.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE00E37D297059A20050CEC2 /* Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
+		FE00E37F297070F30050CEC2 /* Strategist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategist.swift; sourceTree = "<group>"; };
 		FE5B3781296C7D9B00794223 /* BioBlit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BioBlit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE5B3784296C7D9B00794223 /* BioBlitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioBlitApp.swift; sourceTree = "<group>"; };
 		FE5B3786296C7D9B00794223 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -26,6 +32,8 @@
 		FE5B3793296C805400794223 /* Bacteria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bacteria.swift; sourceTree = "<group>"; };
 		FE5B3795296C822E00794223 /* BacteriaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BacteriaView.swift; sourceTree = "<group>"; };
 		FE5B3797296C85E300794223 /* GameBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoard.swift; sourceTree = "<group>"; };
+		FE5B3799296DE8FB00794223 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		FE5B379F296E133E00794223 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +66,10 @@
 		FE5B3783296C7D9B00794223 /* BioBlit */ = {
 			isa = PBXGroup;
 			children = (
+				FE5B379D296E12D400794223 /* ModelView */,
+				FE5B379C296E12BC00794223 /* Views */,
+				FE5B379B296E12A800794223 /* Models */,
 				FE5B3784296C7D9B00794223 /* BioBlitApp.swift */,
-				FE5B3786296C7D9B00794223 /* ContentView.swift */,
-				FE5B3797296C85E300794223 /* GameBoard.swift */,
-				FE5B3793296C805400794223 /* Bacteria.swift */,
-				FE5B3795296C822E00794223 /* BacteriaView.swift */,
 				FE5B3788296C7D9D00794223 /* Assets.xcassets */,
 				FE5B378D296C7D9D00794223 /* BioBlit.entitlements */,
 				FE5B378A296C7D9D00794223 /* Preview Content */,
@@ -76,6 +83,35 @@
 				FE5B378B296C7D9D00794223 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FE5B379B296E12A800794223 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FE5B3799296DE8FB00794223 /* Player.swift */,
+				FE5B3793296C805400794223 /* Bacteria.swift */,
+				FE5B379F296E133E00794223 /* Board.swift */,
+				FE00E37D297059A20050CEC2 /* Move.swift */,
+				FE00E37F297070F30050CEC2 /* Strategist.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FE5B379C296E12BC00794223 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE5B3786296C7D9B00794223 /* ContentView.swift */,
+				FE5B3795296C822E00794223 /* BacteriaView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FE5B379D296E12D400794223 /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				FE5B3797296C85E300794223 /* GameBoard.swift */,
+			);
+			path = ModelView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +188,10 @@
 				FE5B3785296C7D9B00794223 /* BioBlitApp.swift in Sources */,
 				FE5B3798296C85E300794223 /* GameBoard.swift in Sources */,
 				FE5B3794296C805400794223 /* Bacteria.swift in Sources */,
+				FE00E37E297059A20050CEC2 /* Move.swift in Sources */,
+				FE5B37A0296E133E00794223 /* Board.swift in Sources */,
+				FE00E380297070F30050CEC2 /* Strategist.swift in Sources */,
+				FE5B379A296DE8FB00794223 /* Player.swift in Sources */,
 				FE5B3796296C822E00794223 /* BacteriaView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
