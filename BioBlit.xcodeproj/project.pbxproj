@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		FE00E37E297059A20050CEC2 /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE00E37D297059A20050CEC2 /* Move.swift */; };
 		FE00E380297070F30050CEC2 /* Strategist.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE00E37F297070F30050CEC2 /* Strategist.swift */; };
+		FE00E38729718D160050CEC2 /* screen1.png in Resources */ = {isa = PBXBuildFile; fileRef = FE00E38329718D160050CEC2 /* screen1.png */; };
+		FE00E38829718D160050CEC2 /* video.gif in Resources */ = {isa = PBXBuildFile; fileRef = FE00E38429718D160050CEC2 /* video.gif */; };
+		FE00E38929718D160050CEC2 /* screen2.png in Resources */ = {isa = PBXBuildFile; fileRef = FE00E38529718D160050CEC2 /* screen2.png */; };
+		FE00E38A29718D160050CEC2 /* screen3.png in Resources */ = {isa = PBXBuildFile; fileRef = FE00E38629718D160050CEC2 /* screen3.png */; };
 		FE5B3785296C7D9B00794223 /* BioBlitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5B3784296C7D9B00794223 /* BioBlitApp.swift */; };
 		FE5B3787296C7D9B00794223 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5B3786296C7D9B00794223 /* ContentView.swift */; };
 		FE5B3789296C7D9D00794223 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE5B3788296C7D9D00794223 /* Assets.xcassets */; };
@@ -23,6 +27,11 @@
 /* Begin PBXFileReference section */
 		FE00E37D297059A20050CEC2 /* Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
 		FE00E37F297070F30050CEC2 /* Strategist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategist.swift; sourceTree = "<group>"; };
+		FE00E381297189050050CEC2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FE00E38329718D160050CEC2 /* screen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen1.png; sourceTree = "<group>"; };
+		FE00E38429718D160050CEC2 /* video.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = video.gif; sourceTree = "<group>"; };
+		FE00E38529718D160050CEC2 /* screen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen2.png; sourceTree = "<group>"; };
+		FE00E38629718D160050CEC2 /* screen3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen3.png; sourceTree = "<group>"; };
 		FE5B3781296C7D9B00794223 /* BioBlit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BioBlit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE5B3784296C7D9B00794223 /* BioBlitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioBlitApp.swift; sourceTree = "<group>"; };
 		FE5B3786296C7D9B00794223 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,9 +56,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE00E38229718D080050CEC2 /* screen */ = {
+			isa = PBXGroup;
+			children = (
+				FE00E38329718D160050CEC2 /* screen1.png */,
+				FE00E38529718D160050CEC2 /* screen2.png */,
+				FE00E38629718D160050CEC2 /* screen3.png */,
+				FE00E38429718D160050CEC2 /* video.gif */,
+			);
+			path = screen;
+			sourceTree = "<group>";
+		};
 		FE5B3778296C7D9B00794223 = {
 			isa = PBXGroup;
 			children = (
+				FE00E38229718D080050CEC2 /* screen */,
+				FE00E381297189050050CEC2 /* README.md */,
 				FE5B3783296C7D9B00794223 /* BioBlit */,
 				FE5B3782296C7D9B00794223 /* Products */,
 			);
@@ -172,7 +194,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE00E38829718D160050CEC2 /* video.gif in Resources */,
+				FE00E38A29718D160050CEC2 /* screen3.png in Resources */,
 				FE5B378C296C7D9D00794223 /* Preview Assets.xcassets in Resources */,
+				FE00E38929718D160050CEC2 /* screen2.png in Resources */,
+				FE00E38729718D160050CEC2 /* screen1.png in Resources */,
 				FE5B3789296C7D9D00794223 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
